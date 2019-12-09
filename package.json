@@ -1,0 +1,11 @@
+{
+  "name": "projetmario",
+  "version": "1.0.0",
+  "description": "projet fil rouge",
+  "main": "index.js",
+  "scripts": {
+  "serve": "node src/app.js"
+},
+  "author": "Johanna",
+  "license": "ISC"
+}

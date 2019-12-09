@@ -1,0 +1,189 @@
+/*page 1  accueil------------------------------------------1------------------------------------------------------------------*/
+.body-page-1 {
+    background-image: url("fondAccueilSuperMario.jpg");
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.main-page-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-centre-page-1 {
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+.image-1-page-1 {
+    width: 50vh;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.div_1_page_1 {
+    text-align: center;
+}
+
+/*page 2  pageChoixJeu-------------------------------------------2---------------------------------------------------------*/ 
+.body-page-2 {
+    background-image: url("fondAccueilSuperMario.jpg");
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page-2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.container_form {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text-page-2 {
+    padding: 0.8vh;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    background-color: white;
+}
+
+.input-text-page-2:hover{
+    padding: 1.5vh;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(236, 236, 245);
+}
+.label-page-2{
+    text-align: center;
+    font-family:super_mario_256regular, sans-serif;
+    font-size:3em;
+    margin: 2vh;
+   
+
+}
+.label-page-2-specifique{
+    display: flex;
+    text-align: center;
+    font-family:super_mario_256regular, sans-serif;
+    font-size:2em;
+    margin: 5vh;
+
+}
+
+.input-submit-page-2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family:super_mario_256regular, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1.5vh;
+    margin: 5vh;
+}
+.input-submit-page-2:hover {
+    padding: 20px 35px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgba(76, 175, 79, 0,960); 
+}
+
+.div_1_page_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.div_2_page_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div_3_page_2{
+    display: flex;
+    flex-direction: column; 
+}
+.container-input-image {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+span {
+    text-align: center;
+    color: rgb(233, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-perso {
+    display: inline-block;
+    width: 10vh;
+    height: 11vh;
+    padding: 5px;
+    border: 1px solid rgb(136, 138, 27);
+    background-color: yellow;
+}
+
+.image-perso:hover{
+    display: inline-block;
+    width: 13vh;
+    height: 14vh;
+    padding: 5px;
+    border: 1px solid rgb(136, 138, 27);
+    background-color: yellow;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+/*page 3  pageJeu1------------------------------------------------3-------------------------------------------------------------*/
+
+
+
+
+
+
+/*toutes les pages --------------------------------------------ALL---------------------------------------------------------------*/
+
+.style-family {
+    font-family:super_mario_256regular, sans-serif;
+    font-size:3em;
+}
+
+@media screen and (max-width: 800px) {
+     .main {
+      width: 100%; 
+    }
+    .text-centre-page-1 {
+        margin-right: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+}
+
+@font-face {
+    font-family: 'super_mario_256regular';
+    src: url('supermario256-webfont.woff2') format('woff2'),
+         url('supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
